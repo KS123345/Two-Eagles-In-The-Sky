@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_collapse_of_the_ssr"
+		texturefile = "gfx/interface/ideas/collapse_of_the_ssr_icon.dds"
+		
+	}
+}
