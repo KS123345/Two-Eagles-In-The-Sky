@@ -1,0 +1,38 @@
+ideas = {
+
+	country = {
+		collapse_of_the_ssr = {
+			picture = collapse_of_the_ssr_icon
+			
+			allowed = {
+				tag = RSF
+			}
+			available = {}
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.60
+				conscription_factor = -0.5
+				join_faction_tension = 0.20
+				local_resources_factor = -0.4
+				stability_factor = -0.3
+				political_power_gain = -0.8
+				war_support_factor = -0.10
+}
+				
+}
+}
+
+				
+			}
+		}
+	}		
