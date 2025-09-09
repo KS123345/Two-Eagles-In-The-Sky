@@ -1,0 +1,6 @@
+spriteTypes = {
+spriteType = {
+		name = "GFX_a_brave_new_world_bookmark"
+		texturefile = "gfx/interface/a_brave_new_world_1996.dds"
+	}
+}

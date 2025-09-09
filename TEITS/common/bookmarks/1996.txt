@@ -1,0 +1,54 @@
+bookmarks = {
+	bookmark = {
+		name = "A Brave New World"
+		desc = "A_BRAVE_NEW_WORLD_LOC"
+		date = 1996.1.1.12
+		picture = "GFX_a_brave_new_world_bookmark"
+		default_country = "RSF"
+	
+		
+		}
+		RSF = {
+			history = RSF_ABNWB_DESC_LOC
+			ideology = democratic
+			ideas = {
+				collapse_of_the_ssr
+				ENG_the_war_to_end_all_wars
+				ENG_george_vi
+				british_austerity_idea
+				ENG_colonial_elite
+			}
+			focuses = {
+				ENG_war_with_japan
+				bomber_command_focus
+				maud_focus
+			}
+			
+		}
+		
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
